@@ -1,7 +1,22 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="320" viewBox="0 0 1200 320"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Share+Tech+Mono&amp;display=swap');
+    <style type="text/css"><![CDATA[
+      /* Embedded Orbitron */
+      @font-face {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 400;
+        src: url('data:font/woff2;base64,BASE64_ORBITRON_WOFF2_HERE') format('woff2');
+      }
+      /* Embedded Share Tech Mono */
+      @font-face {
+        font-family: 'Share Tech Mono';
+        font-style: normal;
+        font-weight: 400;
+        src: url('data:font/woff2;base64,BASE64_SHARETECHMONO_WOFF2_HERE') format('woff2');
+      }
+
       .bg { fill: #02040a; }
       .scanline { opacity: .06; }
       .title {
@@ -19,11 +34,6 @@
       }
       .ring { fill: none; stroke: #0ff; stroke-width: 1.2; opacity: .35; }
       .glow { filter: drop-shadow(0 0 6px #00e6ff) drop-shadow(0 0 18px #00e6ff); }
-      .dot { fill: #00fff0; }
-      .orbit { transform-origin: 600px 160px; animation: spin 22s linear infinite; }
-      .orbit.fast { animation-duration: 12s; }
-      .orbit.slow { animation-duration: 34s; }
-      @keyframes spin { to { transform: rotate(360deg); } }
       .chip {
         fill: none; stroke: #0ff; stroke-width: 1;
         filter: drop-shadow(0 0 4px #00d9ff);
@@ -45,29 +55,40 @@
         fill: #001218;
         font-weight: bold;
       }
-    </style>
-    <!-- Soft vignette -->
+      .orbit { transform-origin: 600px 160px; animation: spin 22s linear infinite; }
+      .orbit.fast { animation-duration: 12s; }
+      .orbit.slow { animation-duration: 34s; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    ]]></style>
+
+    <!-- Vignette -->
     <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#00131f" />
-      <stop offset="100%" stop-color="#00070d" />
+      <stop offset="0%" stop-color="#00131f"/>
+      <stop offset="100%" stop-color="#00070d"/>
     </radialGradient>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanline" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="1" fill="#00ffff" opacity=".25"/>
+    </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect x="0" y="0" width="1200" height="320" fill="url(#vignette)"/>
-  <rect class="scanline" x="0" y="0" width="1200" height="320"
-        fill="url('data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;4&quot; height=&quot;4&quot;><rect width=&quot;4&quot; height=&quot;1&quot; fill=&quot;%2300ffff&quot; opacity=&quot;.25&quot;/></svg>')" />
+  <!-- Background layers -->
+  <rect width="1200" height="320" fill="url(#vignette)"/>
+  <rect class="scanline" width="1200" height="320" fill="url(#scanline)"/>
 
-  <!-- Decorative chip frame -->
+  <!-- Chip frames -->
   <rect x="40" y="30" width="1120" height="260" rx="14" class="chip"/>
   <rect x="52" y="42" width="1096" height="236" rx="12" class="chip"/>
 
-  <!-- Center title -->
+  <!-- Centered Title and Subtitle -->
   <g transform="translate(600,140)">
     <text text-anchor="middle" class="title glow">SAJIV JESS B I</text>
   </g>
   <g transform="translate(600,172)">
-    <text text-anchor="middle" class="subtitle">AI/ML • Web &amp; App • UI/UX • Automation • Edge AI • RAG</text>
+    <text text-anchor="middle" class="subtitle">
+      AI/ML • Web &amp; App • UI/UX • Automation • Edge AI • RAG
+    </text>
   </g>
 
   <!-- Concentric rings -->
@@ -76,68 +97,34 @@
   <circle cx="600" cy="160" r="130" class="ring"/>
   <circle cx="600" cy="160" r="165" class="ring"/>
 
-  <!-- Orbiting tech "chips" (inline minimal icons with initials) -->
+  <!-- Orbiting tech icon chips -->
   <g class="orbit fast">
-    <g class="icon">
-      <circle cx="600" cy="30" r="14" class="badge-bg"/><text x="592" y="34">Py</text>
-    </g>
-    <g class="icon">
-      <circle cx="760" cy="100" r="14" class="badge-bg"/><text x="753" y="104">JS</text>
-    </g>
-    <g class="icon">
-      <circle cx="865" cy="185" r="14" class="badge-bg"/><text x="856" y="189">Rn</text>
-    </g>
-    <g class="icon">
-      <circle cx="440" cy="265" r="14" class="badge-bg"/><text x="433" y="269">Fl</text>
-    </g>
+    <g class="icon"><circle cx="600" cy="30" r="14" class="badge-bg"/><text x="592" y="34">Py</text></g>
+    <g class="icon"><circle cx="760" cy="100" r="14" class="badge-bg"/><text x="753" y="104">JS</text></g>
+    <g class="icon"><circle cx="865" cy="185" r="14" class="badge-bg"/><text x="856" y="189">Rn</text></g>
+    <g class="icon"><circle cx="440" cy="265" r="14" class="badge-bg"/><text x="433" y="269">Fl</text></g>
   </g>
 
   <g class="orbit">
-    <g class="icon">
-      <circle cx="310" cy="155" r="14" class="badge-bg"/><text x="302" y="159">FA</text>
-    </g>
-    <g class="icon">
-      <circle cx="520" cy="290" r="14" class="badge-bg"/><text x="511" y="294">DB</text>
-    </g>
-    <g class="icon">
-      <circle cx="965" cy="120" r="14" class="badge-bg"/><text x="956" y="124">HF</text>
-    </g>
-    <g class="icon">
-      <circle cx="690" cy="22" r="14" class="badge-bg"/><text x="682" y="26">CV</text>
-    </g>
+    <g class="icon"><circle cx="310" cy="155" r="14" class="badge-bg"/><text x="302" y="159">FA</text></g>
+    <g class="icon"><circle cx="520" cy="290" r="14" class="badge-bg"/><text x="511" y="294">DB</text></g>
+    <g class="icon"><circle cx="965" cy="120" r="14" class="badge-bg"/><text x="956" y="124">HF</text></g>
+    <g class="icon"><circle cx="690" cy="22" r="14" class="badge-bg"/><text x="682" y="26">CV</text></g>
   </g>
 
   <g class="orbit slow">
-    <g class="icon">
-      <circle cx="170" cy="195" r="14" class="badge-bg"/><text x="161" y="199">TF</text>
-    </g>
-    <g class="icon">
-      <circle cx="1020" cy="220" r="14" class="badge-bg"/><text x="1011" y="224">GCP</text>
-    </g>
-    <g class="icon">
-      <circle cx="230" cy="80" r="14" class="badge-bg"/><text x="222" y="84">AZ</text>
-    </g>
-    <g class="icon">
-      <circle cx="820" cy="280" r="14" class="badge-bg"/><text x="812" y="284">LLM</text>
-    </g>
+    <g class="icon"><circle cx="170" cy="195" r="14" class="badge-bg"/><text x="161" y="199">TF</text></g>
+    <g class="icon"><circle cx="1020" cy="220" r="14" class="badge-bg"/><text x="1011" y="224">GCP</text></g>
+    <g class="icon"><circle cx="230" cy="80" r="14" class="badge-bg"/><text x="222" y="84">AZ</text></g>
+    <g class="icon"><circle cx="820" cy="280" r="14" class="badge-bg"/><text x="812" y="284">LLM</text></g>
   </g>
 
-  <!-- Tag badges row -->
+  <!-- Badge row -->
   <g transform="translate(600,210)">
-    <g transform="translate(-360,0)">
-      <rect width="120" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">Python • Flask</text>
-    </g>
-    <g transform="translate(-210,0)">
-      <rect width="135" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">FastAPI • React</text>
-    </g>
-    <g transform="translate(-50,0)">
-      <rect width="165" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">RAG • FAISS • LLaMA</text>
-    </g>
-    <g transform="translate(140,0)">
-      <rect width="150" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">MySQL • Firebase</text>
-    </g>
-    <g transform="translate(310,0)">
-      <rect width="140" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">GCP • Azure</text>
-    </g>
+    <g transform="translate(-360,0)"><rect width="120" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">Python • Flask</text></g>
+    <g transform="translate(-210,0)"><rect width="135" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">FastAPI • React</text></g>
+    <g transform="translate(-50,0)"><rect width="165" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">RAG • FAISS • LLaMA</text></g>
+    <g transform="translate(140,0)"><rect width="150" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">MySQL • Firebase</text></g>
+    <g transform="translate(310,0)"><rect width="140" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">GCP • Azure</text></g>
   </g>
 </svg>
