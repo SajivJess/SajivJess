@@ -1,0 +1,114 @@
+<!-- assets/neon-banner.svg -->
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- ============ Background ============ -->
+  <defs>
+    <!-- Animated gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0f1226"/>
+      <stop offset="50%"  stop-color="#141a3a"/>
+      <stop offset="100%" stop-color="#0f1226"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;0%;100%" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Neon glow filter -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Stronger glow for main title -->
+    <filter id="fatGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Soft grid lines -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#3b3f78" stroke-opacity="0.15" stroke-width="1"/>
+    </pattern>
+
+    <!-- Curvy paths for moving particles -->
+    <path id="curve1" d="M0,220 C300,160 900,260 1200,180" fill="none"/>
+    <path id="curve2" d="M0,80 C250,20 950,140 1200,60" fill="none"/>
+  </defs>
+
+  <!-- Gradient background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <!-- Subtle grid -->
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- ============ Moving Particles ============ -->
+  <g opacity="0.9">
+    <circle r="4" fill="#00fff7" filter="url(#neonGlow)">
+      <animateMotion dur="12s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#curve1"/>
+      </animateMotion>
+    </circle>
+    <circle r="3" fill="#9b5cff" filter="url(#neonGlow)">
+      <animateMotion dur="9s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#curve2"/>
+      </animateMotion>
+    </circle>
+    <circle r="5" fill="#00ff87" filter="url(#neonGlow)">
+      <animateMotion dur="15s" begin="2s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#curve1"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- ============ Title ============ -->
+  <g transform="translate(70,120)">
+    <!-- Outer glow halos -->
+    <text x="0" y="0" font-family="Orbitron,Segoe UI,Roboto,Arial,sans-serif"
+          font-size="64" fill="#00fff7" opacity="0.25" filter="url(#fatGlow)">
+      SAJIV JESS B I
+    </text>
+    <!-- Main neon title -->
+    <text x="0" y="0" font-family="Orbitron,Segoe UI,Roboto,Arial,sans-serif"
+          font-size="64" fill="#00fff7" filter="url(#fatGlow)">
+      SAJIV JESS B I
+      <animate attributeName="fill" values="#00fff7;#7af9ff;#00fff7" dur="6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(70,165)">
+    <text font-family="Fira Code,Consolas,monospace" font-size="20"
+          fill="#c9d4ff" filter="url(#neonGlow)">
+      AI/ML Engineer • Full-Stack Developer • Hackathon Winner
+    </text>
+  </g>
+
+  <!-- ============ Skills Ticker (scrolling) ============ -->
+  <g transform="translate(70,220)" font-family="Fira Code,Consolas,monospace" font-size="18"
+     fill="#a9b6ff" filter="url(#neonGlow)">
+    <g>
+      <text id="ticker">
+        ▶ Python • Flask • FastAPI • JavaScript • React • Vite • Node.js •
+        MySQL • Firebase • GCP • Hugging Face • Llama.cpp • FAISS/Qdrant •
+        Streamlit • Tailwind • Bootstrap • Edge AI • IoT • LoRa • NLP • RAG
+        ▶ Python • Flask • FastAPI • JavaScript • React • Vite • Node.js •
+        MySQL • Firebase • GCP • Hugging Face • Llama.cpp • FAISS/Qdrant •
+        Streamlit • Tailwind • Bootstrap • Edge AI • IoT • LoRa • NLP • RAG
+      </text>
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="-900 0" dur="18s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Corner tag -->
+  <g opacity="0.9">
+    <rect x="960" y="22" rx="8" ry="8" width="170" height="34"
+          fill="#0d1028" stroke="#00fff7" stroke-opacity="0.5"/>
+    <text x="1045" y="45" text-anchor="middle"
+          font-family="Fira Code,Consolas,monospace" font-size="16"
+          fill="#7af9ff">open-source • neon</text>
+  </g>
+</svg>
