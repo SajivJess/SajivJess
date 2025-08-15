@@ -1,8 +1,7 @@
-<!-- assets/neon-banner-orbits.svg -->
 <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Share+Tech+Mono&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Share+Tech+Mono&amp;display=swap');
       .bg { fill: #02040a; }
       .scanline { opacity: .06; }
       .title {
@@ -68,7 +67,7 @@
     <text text-anchor="middle" class="title glow">SAJIV JESS B I</text>
   </g>
   <g transform="translate(600,172)">
-    <text text-anchor="middle" class="subtitle">AI/ML • Web & App • UI/UX • Automation • Edge AI • RAG</text>
+    <text text-anchor="middle" class="subtitle">AI/ML • Web &amp; App • UI/UX • Automation • Edge AI • RAG</text>
   </g>
 
   <!-- Concentric rings -->
