@@ -48,8 +48,9 @@ I build **AI-driven, automation-first solutions** with a strong focus on **socia
 ## 🛠 Tech Stack (visual)
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,bootstrap,tailwind,react,vite,nodejs,fastapi,flask,dart,flutter,git,bash,sqlite,mysql,postgresql,firebase,gcp,azure,tensorflow,sklearn,opencv,huggingface,linux,vscode,postman,powershell&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,bootstrap,tailwind,react,vite,nodejs,fastapi,flask,git,bash,sqlite,mysql,firebase,azure,tensorflow,sklearn,opencv,huggingface,linux,vscode,postman,powershell&theme=dark" />
 </p>
+
 
 **Also familiar with:** FAISS, LangChain, RAG systems, Prompt Engineering, Power BI, Excel.
 
