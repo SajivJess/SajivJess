@@ -5,9 +5,11 @@
 <h1 align="center">Hi 👋, I'm Sajiv Jess B I</h1>
 <h3 align="center">💻 AI/ML Enthusiast | Web & App Developer | UI/UX Designer</h3>
 
+<!-- Neon Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SajivJess/SajivJess/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="./assets/neon-banner.svg" alt="Sajiv Jess • Neon Banner"/>
 </p>
+
 
 ---
 
