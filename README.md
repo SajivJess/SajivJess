@@ -1,4 +1,5 @@
-![Banner](assets/neon-banner-orbits.svg)
+![Neon Banner](https://raw.githubusercontent.com/SajivJess/SajivJess/main/assets/neon-banner-orbits.svg)
+
 
 # 👋 Hi, I’m Sajiv Jess B I  
 
