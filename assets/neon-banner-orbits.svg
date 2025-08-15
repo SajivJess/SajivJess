@@ -1,55 +1,20 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320"
-     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style type="text/css"><![CDATA[
-      @font-face { font-family: 'Orbitron'; font-style: normal; font-weight: 400; src: url('data:font/woff2;base64,BASE64_ORBITRON_WOFF2_HERE') format('woff2'); }
-      @font-face { font-family: 'Share Tech Mono'; font-style: normal; font-weight: 400; src: url('data:font/woff2;base64,BASE64_SHARETECHMONO_WOFF2_HERE') format('woff2'); }
-
-      .bg { fill: #02040a; }
-      .scanline { opacity: .06; }
-      .title { font-family: 'Orbitron', sans-serif; font-size: 52px; letter-spacing: 2px; fill: #00fff0; filter: drop-shadow(0 0 8px #00fff0) drop-shadow(0 0 16px #00fff0); }
-      .subtitle { font-family: 'Share Tech Mono', monospace; font-size: 16px; fill: #7efcff; opacity: .9; }
-      .ring { fill: none; stroke: #0ff; stroke-width: 1.2; opacity: .35; }
-      .glow { filter: drop-shadow(0 0 6px #00e6ff) drop-shadow(0 0 18px #00e6ff); }
-      .chip { fill: none; stroke: #0ff; stroke-width: 1; filter: drop-shadow(0 0 4px #00d9ff); opacity: .35; }
-      .badge { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #00121a; }
-      .badge-bg { fill: #00fff0; opacity: .9; filter: drop-shadow(0 0 8px #00fff0); }
-      .icon text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #001218; font-weight: bold; }
-      .orbit { transform-origin: 600px 160px; animation: spin 22s linear infinite; }
-      .orbit.fast { animation-duration: 14s; }
-      .orbit.medium { animation-duration: 22s; }
-      .orbit.slow { animation-duration: 34s; animation-direction: reverse; }
-
-      .spark { fill: #00fff0; filter: blur(2px); }
-      .spark1 { animation: move1 8s linear infinite; }
-      .spark2 { animation: move2 10s linear infinite; }
-      .spark3 { animation: move3 12s linear infinite; }
-      .spark4 { animation: move4 14s linear infinite; }
-
-      .flicker { animation: flickerAnim 1.2s infinite alternate; }
-      .flicker:nth-child(2n) { animation-duration: 1s; }
-      .flicker:nth-child(3n) { animation-duration: 1.4s; }
-
-      @keyframes spin { to { transform: rotate(360deg); } }
-      @keyframes move1 { from { transform: rotate(0deg) translateX(60px) rotate(0deg); } to { transform: rotate(360deg) translateX(60px) rotate(-360deg); } }
-      @keyframes move2 { from { transform: rotate(0deg) translateX(95px) rotate(0deg); } to { transform: rotate(360deg) translateX(95px) rotate(-360deg); } }
-      @keyframes move3 { from { transform: rotate(0deg) translateX(130px) rotate(0deg); } to { transform: rotate(360deg) translateX(130px) rotate(-360deg); } }
-      @keyframes move4 { from { transform: rotate(0deg) translateX(165px) rotate(0deg); } to { transform: rotate(360deg) translateX(165px) rotate(-360deg); } }
-
-      @keyframes flickerAnim { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
-
-      /* Hover effect for sparkles */
-      svg:hover .spark {
-        transform: scale(1.4);
-        filter: drop-shadow(0 0 12px #00ffff);
-      }
+    <style><![CDATA[
+      .bg{fill:#02040a}.scanline{opacity:.06}.title{font-family:sans-serif;font-size:52px;letter-spacing:2px;fill:#00fff0;filter:drop-shadow(0 0 8px #00fff0) drop-shadow(0 0 16px #00fff0)}
+      .subtitle{font-family:monospace;font-size:16px;fill:#7efcff;opacity:.9}.ring{fill:none;stroke:#0ff;stroke-width:1.2;opacity:.35}
+      .glow{filter:drop-shadow(0 0 6px #00e6ff) drop-shadow(0 0 18px #00e6ff)}.chip{fill:none;stroke:#0ff;stroke-width:1;filter:drop-shadow(0 0 4px #00d9ff);opacity:.35}
+      .badge{font-family:monospace;font-size:12px;fill:#00121a}.badge-bg{fill:#00fff0;opacity:.9;filter:drop-shadow(0 0 8px #00fff0)}
+      .icon text{font-family:monospace;font-size:12px;fill:#001218;font-weight:bold}.orbit{transform-origin:600px 160px;animation:spin 22s linear infinite}
+      .orbit.fast{animation-duration:14s}.orbit.medium{animation-duration:22s}.orbit.slow{animation-duration:34s;animation-direction:reverse}
+      .spark{fill:#00fff0;filter:blur(2px)}.flicker{animation:flicker 1.2s infinite alternate}
+      @keyframes spin{to{transform:rotate(360deg)}}@keyframes flicker{0%{opacity:.5}50%{opacity:1}100%{opacity:.4}}
+      svg:hover .spark{transform:scale(1.4);filter:drop-shadow(0 0 12px #00ffff)}
     ]]></style>
-
     <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
       <stop offset="0%" stop-color="#00131f"/>
       <stop offset="100%" stop-color="#00070d"/>
     </radialGradient>
-
     <pattern id="scanline" patternUnits="userSpaceOnUse" width="4" height="4">
       <rect width="4" height="1" fill="#00ffff" opacity=".25"/>
     </pattern>
@@ -65,30 +30,21 @@
     <text text-anchor="middle" class="title glow">SAJIV JESS B I</text>
   </g>
   <g transform="translate(600,172)">
-    <text text-anchor="middle" class="subtitle">
-      AI/ML • Web &amp; App • UI/UX • Automation • Edge AI • RAG
-    </text>
+    <text text-anchor="middle" class="subtitle">AI/ML • Web &amp; App • UI/UX • Automation • Edge AI • RAG</text>
   </g>
 
-  <!-- Concentric rings -->
   <circle cx="600" cy="160" r="60" class="ring"/>
   <circle cx="600" cy="160" r="95" class="ring"/>
   <circle cx="600" cy="160" r="130" class="ring"/>
   <circle cx="600" cy="160" r="165" class="ring"/>
 
-  <!-- Orbiting sparkles -->
   <g transform="translate(600,160)">
-    <circle class="spark spark1 flicker" r="3"/>
-    <circle class="spark spark1 flicker" r="2" transform="rotate(90) translateX(60) rotate(-90)"/>
-    <circle class="spark spark2 flicker" r="3"/>
-    <circle class="spark spark2 flicker" r="2" transform="rotate(120) translateX(95) rotate(-120)"/>
-    <circle class="spark spark3 flicker" r="2"/>
-    <circle class="spark spark3 flicker" r="3" transform="rotate(180) translateX(130) rotate(-180)"/>
-    <circle class="spark spark4 flicker" r="3"/>
-    <circle class="spark spark4 flicker" r="2" transform="rotate(240) translateX(165) rotate(-240)"/>
+    <circle class="spark flicker" r="3"/>
+    <circle class="spark flicker" r="2" transform="rotate(90) translateX(60) rotate(-90)"/>
+    <circle class="spark flicker" r="3" transform="rotate(180) translateX(130) rotate(-180)"/>
+    <circle class="spark flicker" r="2" transform="rotate(240) translateX(165) rotate(-240)"/>
   </g>
 
-  <!-- Orbiting tech icons -->
   <g class="orbit fast">
     <g class="icon"><circle cx="600" cy="30" r="14" class="badge-bg"/><text x="592" y="34">Py</text></g>
     <g class="icon"><circle cx="760" cy="100" r="14" class="badge-bg"/><text x="753" y="104">JS</text></g>
@@ -109,7 +65,6 @@
     <g class="icon"><circle cx="820" cy="280" r="14" class="badge-bg"/><text x="812" y="284">LLM</text></g>
   </g>
 
-  <!-- Badge row -->
   <g transform="translate(600,210)">
     <g transform="translate(-360,0)"><rect width="120" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">Python • Flask</text></g>
     <g transform="translate(-210,0)"><rect width="135" height="22" rx="6" class="badge-bg"/><text x="10" y="15" class="badge">FastAPI • React</text></g>
