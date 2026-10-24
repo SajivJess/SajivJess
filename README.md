@@ -1,186 +1,213 @@
- <div align="center">
 
-<img src="https://raw.githubusercontent.com/SajivJess/SajivJess/main/assets/neon-banner-orbits.svg" width="100%" alt="Sajiv Jess — Applied AI and Systems Engineering" />
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/SajivJess/SajivJess/main/assets/neon-banner-orbits.svg" width="100%" alt="Sajiv Jess — Applied AI Engineer"/>
 
 <br/>
 
-<a href="https://sajivjess.dev"><strong>PORTFOLIO ↗</strong></a>
-&nbsp; · &nbsp;
-<a href="https://www.linkedin.com/in/sajivjess">LINKEDIN ↗</a>
-&nbsp; · &nbsp;
-<a href="mailto:sajiv2580@gmail.com">EMAIL ↗</a>
+<a href="https://sajivjess.dev">
+  <img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/>
+</a>
+<a href="https://www.linkedin.com/in/sajivjess">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://github.com/SajivJess">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="mailto:sajiv2580@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
 <br/><br/>
 
-# Sajiv Jess B I
-
-### Applied AI Engineer · ML Systems · Full-Stack Development
-
-**I build intelligent systems that solve real-world problems.**
-
-From computer vision and edge AI to backend infrastructure and automation, I enjoy turning complex ideas into working software.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=750&lines=Applied+AI+%26+Machine+Learning;Computer+Vision+%7C+Edge+AI+%7C+RAG;Backend+Systems+%26+Intelligent+Automation" alt="Animated engineering specialties"/>
 
 </div>
 
 ---
 
-## 01 / About
+## 👨‍💻 &nbsp; About Me
 
-I'm a final-year B.Tech student in **Artificial Intelligence & Machine Learning at Rajalakshmi Engineering College (2023–2027)** and a **Smart India Hackathon 2024 National Winner**.
+I'm a final-year **B.Tech Artificial Intelligence & Machine Learning student at Rajalakshmi Engineering College (2023–2027)** and a **Smart India Hackathon 2024 National Winner**.
 
-My approach to engineering combines applied AI, software architecture, and practical deployment. I enjoy understanding a problem end to end: the data, the model, the infrastructure, the user, and the constraints that determine whether a solution works outside a demo.
+I build AI-powered systems that connect models, software, and real-world operations. I'm especially interested in applied machine learning, computer vision, edge computing, and the engineering required to move prototypes into practical deployment.
 
-- **Applied AI:** Computer vision, machine learning, LLMs, and RAG.
-- **Systems:** Backend APIs, databases, orchestration, and integration.
-- **Edge & Embedded:** Local inference, hardware integration, and offline-first design.
-- **Automotive:** ADAS and machine-learning approaches for Adaptive Cruise Control.
+- 🚦 &nbsp; Building **KAAVAL AI**, a traffic-intelligence initiative developed with the Kanyakumari District Police.
+- 🚘 &nbsp; Exploring **machine-learning approaches to Adaptive Cruise Control** at Mahindra Research.
+- 🚑 &nbsp; Led development of **Victim Locator 360**, an SIH-winning disaster-response system.
+- 🧠 &nbsp; Interested in local LLMs, retrieval-augmented generation, and intelligent automation.
 
-> I care about what happens after the prototype works.
-
----
-
-## 02 / Experience
-
-### Mahindra & Mahindra — Research
-
-**ADAS Engineering Intern**
-
-Working in the Advanced Driver Assistance Systems domain, exploring neural-network-based approaches for Adaptive Cruise Control.
-
-`MACHINE LEARNING` `ADAS` `AUTOMOTIVE SYSTEMS`
+> **My focus:** Engineering AI systems that work beyond the demo.
 
 ---
 
-## 03 / Selected Work
+## 💼 &nbsp; Experience
 
-<div align="center">
+<table>
+<tr>
+<td width="64">
+<img src="https://img.shields.io/badge/M%26M-003B70?style=for-the-badge" alt="Mahindra"/>
+</td>
+<td>
+
+**Mahindra & Mahindra Ltd. — Research**
+
+`ADAS Engineering Intern`
+
+Exploring neural-network-based approaches for Adaptive Cruise Control and learning how machine learning fits into real automotive systems.
+
+<img src="https://img.shields.io/badge/Automotive_AI-00D9FF?style=flat-square&labelColor=111827" alt="Automotive AI"/>
+<img src="https://img.shields.io/badge/Machine_Learning-00D9FF?style=flat-square&labelColor=111827" alt="Machine Learning"/>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 &nbsp; Featured Projects
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01 — KAAVAL AI
+<h3>🚦 KAAVAL AI</h3>
 
-**AI-powered traffic intelligence**
+<strong>AI-powered traffic intelligence</strong>
 
-A real-world public-safety initiative developed in collaboration with the Kanyakumari District Police.
+An applied AI initiative for public safety, developed in collaboration with the Kanyakumari District Police.
 
 - Computer vision for traffic monitoring
 - Automatic Number Plate Recognition
 - Traffic-violation detection
 - Edge-oriented deployment
 
-`Computer Vision` `Edge AI` `ANPR`
+<img src="https://img.shields.io/badge/Computer_Vision-7C3AED?style=flat-square" alt="Computer Vision"/>
+<img src="https://img.shields.io/badge/Edge_AI-0891B2?style=flat-square" alt="Edge AI"/>
 
-<a href="https://www.linkedin.com/in/sajivjess">PROJECT UPDATES ↗</a>
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/sajivjess"><strong>↗ PROJECT UPDATES</strong></a>
 
 </td>
 <td width="50%" valign="top">
 
-### 02 — Victim Locator 360
+<h3>🚑 Victim Locator 360</h3>
 
-**Disaster-response technology**
+<strong>SIH 2024 National Winner</strong>
 
-A Smart India Hackathon-winning rescue system designed to help locate victims in collapsed structures using aerial and ground-based systems.
+An AI-powered disaster-response system designed to help locate victims in collapsed structures.
 
-- Drone and rover architecture
+- Drone and rover integration
 - AI-based victim detection
 - LoRa communication
-- Offline-first operation
+- Offline-first architecture
 
-`Python` `OpenCV` `YOLO` `LoRa`
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+<img src="https://img.shields.io/badge/LoRa-0891B2?style=flat-square" alt="LoRa"/>
 
-<a href="https://github.com/SajivJess/Victim-Locator-360">VIEW REPOSITORY ↗</a>
+<br/><br/>
+
+<a href="https://github.com/SajivJess/Victim-Locator-360"><strong>↗ VIEW SOURCE</strong></a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 03 — Reporzo
+<h3>🎬 Reporzo</h3>
 
-**News-to-video automation**
+<strong>AI news-to-video automation</strong>
 
-An automated content pipeline that transforms news into short-form video content.
+An automated pipeline that turns news into short-form video content.
 
-- News collection and processing
-- AI-assisted script generation
-- Voiceover generation
+- News processing and summarization
+- AI-generated scripts and voiceovers
 - Automated video rendering
 
-`Python` `LLMs` `FFmpeg` `React`
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
 
-<a href="https://github.com/SajivJess/NPSH-Developers">VIEW REPOSITORY ↗</a>
+<br/><br/>
+
+<a href="https://github.com/SajivJess/NPSH-Developers"><strong>↗ VIEW SOURCE</strong></a>
 
 </td>
 <td width="50%" valign="top">
 
-### 04 — Offline RAG Chatbot
+<h3>🧠 Offline RAG Chatbot</h3>
 
-**Private, local document intelligence**
+<strong>Local document intelligence</strong>
 
-A document question-answering system built around local retrieval and language-model inference.
+A document question-answering system designed around local retrieval and language-model inference.
 
-- Semantic document retrieval
-- Vector search and indexing
-- Local LLM inference
-- Source-grounded answers
+- Semantic document search
+- Qdrant and FAISS vector search
+- Local inference with llama.cpp
+- Source-grounded responses
 
-`Python` `Qdrant` `FAISS` `llama.cpp`
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" alt="Qdrant"/>
+<img src="https://img.shields.io/badge/FAISS-00599C?style=flat-square" alt="FAISS"/>
+<img src="https://img.shields.io/badge/LLM-7C3AED?style=flat-square" alt="LLM"/>
 
-<a href="https://github.com/SajivJess/RAG-CHATBOT">VIEW REPOSITORY ↗</a>
+<br/><br/>
+
+<a href="https://github.com/SajivJess/RAG-CHATBOT"><strong>↗ VIEW SOURCE</strong></a>
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+<a href="https://github.com/SajivJess?tab=repositories">
+  <img src="https://img.shields.io/badge/EXPLORE_ALL_PROJECTS-00D9FF?style=for-the-badge&logo=github&logoColor=black" alt="Explore all projects"/>
+</a>
+
 </div>
 
-### More projects
+---
 
-**TrustEase** — Machine-learning-based credit risk evaluation.
+## 🧰 &nbsp; Tech Stack
 
-<a href="https://github.com/SajivJess/RAP-Hackathon">Explore the repository ↗</a>
+### 💻 Languages & Development
 
-For additional work and demos, visit <a href="https://sajivjess.dev">sajivjess.dev</a>.
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,react,nodejs,flask,fastapi,nestjs,flutter&theme=dark" alt="Languages and development tools"/>
+</div>
+
+### 🤖 AI, Machine Learning & Computer Vision
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn,huggingface&theme=dark" alt="AI and machine learning technologies"/>
+</div>
+
+<p align="center">
+<img src="https://img.shields.io/badge/LLMs-7C3AED?style=flat-square" alt="LLMs"/>
+<img src="https://img.shields.io/badge/RAG-0891B2?style=flat-square" alt="RAG"/>
+<img src="https://img.shields.io/badge/Vector_Search-0D9488?style=flat-square" alt="Vector search"/>
+<img src="https://img.shields.io/badge/Edge_AI-0369A1?style=flat-square" alt="Edge AI"/>
+<img src="https://img.shields.io/badge/YOLO-65A30D?style=flat-square" alt="YOLO"/>
+<img src="https://img.shields.io/badge/Local_Inference-9333EA?style=flat-square" alt="Local inference"/>
+</p>
+
+### 🗄️ Databases & Infrastructure
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,supabase,firebase,redis,docker,azure&theme=dark" alt="Database and infrastructure technologies"/>
+</div>
+
+### 🛠️ Developer Tools
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,linux,bash,vscode,postman,powershell&theme=dark" alt="Developer tools"/>
+</div>
 
 ---
 
-## 04 / Technical Toolkit
-
-<details open>
-<summary><strong>AI, Machine Learning & Computer Vision</strong></summary>
-<br/>
-
-Python · PyTorch · TensorFlow · scikit-learn · OpenCV · YOLO · Hugging Face · LLMs · RAG · Embeddings · Vector Search · Local Inference
-
-</details>
-
-<details>
-<summary><strong>Backend & Application Engineering</strong></summary>
-<br/>
-
-Flask · FastAPI · NestJS · TypeScript · JavaScript · REST APIs · React · Flutter · Java
-
-</details>
-
-<details>
-<summary><strong>Data & Infrastructure</strong></summary>
-<br/>
-
-PostgreSQL · MySQL · SQLite · Supabase · Firebase · Redis · Git · Linux · Postman · Azure
-
-</details>
-
-<details>
-<summary><strong>Edge AI & Hardware</strong></summary>
-<br/>
-
-ESP32 · LoRa · GPS · Embedded Integration · Offline-First Architectures · Edge Inference
-
-</details>
-
----
-
-## 05 / Recognition
+## 🏆 &nbsp; Achievements
 
 <div align="center">
 
@@ -188,41 +215,29 @@ ESP32 · LoRa · GPS · Embedded Integration · Offline-First Architectures · E
 <tr>
 <td align="center" width="33%">
 
-<strong>🥇 SIH 2024</strong>
+<img src="https://img.shields.io/badge/🥇-SIH_2024-f59e0b?style=for-the-badge" alt="SIH 2024"/>
 
-<br/>
+<br/><strong>National Winner</strong>
 
-National Winner
-
-<br/>
-
-<sub>Hardware Edition</sub>
+<br/><sub>Hardware Edition</sub>
 
 </td>
 <td align="center" width="33%">
 
-<strong>🏅 IndustryAI</strong>
+<img src="https://img.shields.io/badge/🏅-IndustryAI-7c3aed?style=for-the-badge" alt="IndustryAI"/>
 
-<br/>
+<br/><strong>Top 10</strong>
 
-Top 10
-
-<br/>
-
-<sub>IIT Madras Finale</sub>
+<br/><sub>IIT Madras Finale</sub>
 
 </td>
 <td align="center" width="33%">
 
-<strong>🎖️ PALS innoWAH</strong>
+<img src="https://img.shields.io/badge/🎖️-PALS-0891b2?style=for-the-badge" alt="PALS"/>
 
-<br/>
+<br/><strong>Cluster Pre-Finalist</strong>
 
-Cluster Pre-Finalist
-
-<br/>
-
-<sub>2024–25</sub>
+<br/><sub>innoWAH 2024–25</sub>
 
 </td>
 </tr>
@@ -230,20 +245,20 @@ Cluster Pre-Finalist
 
 </div>
 
-**Leadership:** Team Lead, CODE-O-PHILES · Treasurer, IEEE Computational Intelligence Society (2025–2026) · Junior Design Associate, IEEE CIS (2024–2025).
-
 ---
 
-## 06 / GitHub Activity
+## 📊 &nbsp; GitHub Analytics
 
 <div align="center">
 
 <a href="https://github.com/SajivJess">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SajivJess&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=SajivJess&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics"/>
 </a>
 <a href="https://github.com/SajivJess">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SajivJess&layout=compact&hide_border=true&theme=tokyonight" alt="Most-used languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SajivJess&layout=compact&theme=tokyonight&hide_border=true" alt="Top programming languages"/>
 </a>
+
+<br/>
 
 <img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=SajivJess&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
 
@@ -251,24 +266,28 @@ Cluster Pre-Finalist
 
 ---
 
-## 07 / Let's Connect
-
-I'm interested in building impactful products across **Applied AI, ML infrastructure, computer vision, automotive intelligence, and backend systems**.
-
-If you're solving an interesting engineering problem, I'd love to hear about it.
+## 🤝 &nbsp; Let's Connect
 
 <div align="center">
 
-<a href="https://sajivjess.dev">PORTFOLIO ↗</a>
-&nbsp; · &nbsp;
-<a href="https://www.linkedin.com/in/sajivjess">LINKEDIN ↗</a>
-&nbsp; · &nbsp;
-<a href="https://github.com/SajivJess">GITHUB ↗</a>
-&nbsp; · &nbsp;
-<a href="mailto:sajiv2580@gmail.com">EMAIL ↗</a>
+**Interested in Applied AI, ML systems, computer vision, or engineering challenges with real-world impact?**
+
+Let's connect and build something meaningful.
+
+<br/>
+
+<a href="https://sajivjess.dev">
+  <img src="https://img.shields.io/badge/Website-Visit_Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/>
+</a>
+<a href="https://www.linkedin.com/in/sajivjess">
+  <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+</a>
+<a href="mailto:sajiv2580@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
 <br/><br/>
 
-<sub>DESIGNED AROUND CURIOSITY. BUILT WITH ENGINEERING.</sub>
+<sub>ENGINEERED WITH CURIOSITY · BUILT FOR THE REAL WORLD</sub>
 
 </div>
